@@ -116,7 +116,7 @@ const sdk=document.createElement('script');
 sdk.src='https://api.tianditu.gov.cn/api?v=4.0&tk='+encodeURIComponent(apiKey);
 const sdkDeadline=Date.now()+20000;
 function waitForSdk(){
-  if(window.T && T.Map && T.Marker && T.InfoWindow && T.Control && T.Control.Scale && window.TMAP_NORMAL_MAP && window.TMAP_HYBRID_MAP){initialize();return;}
+  if(window.T && T.Map && T.Marker && T.InfoWindow && T.Control && T.Control.Scale){initialize();return;}
   if(Date.now()<sdkDeadline)setTimeout(waitForSdk,100);
   else showError('天地图组件加载失败，请检查网络、密钥类型和域名权限。');
 }
