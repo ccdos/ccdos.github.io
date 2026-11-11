@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": "IntoGO",
   "service": "upgrade-mirror",
-  "state": "standby",
+  "state": "ready",
   "root": "https://www.ccdos.cn/intogo-update/",
-  "approvedTargets": []
+  "manualApprovalRequired": true
 }
