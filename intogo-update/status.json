@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "product": "IntoGO",
+  "service": "upgrade-mirror",
+  "state": "standby",
+  "root": "https://www.ccdos.cn/intogo-update/",
+  "approvedTargets": []
+}
